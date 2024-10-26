@@ -9,7 +9,7 @@ pub mod blockchain {
     #[derive(Clone, Debug)]
     pub struct Blockchain {
         current_hash: String,
-        db: sled::Db,
+        pub db: sled::Db,
     }
 
     pub struct BlockchainIterator<'a> {
