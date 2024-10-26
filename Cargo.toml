@@ -28,5 +28,5 @@ debug = true
 [profile.release]
 debug = true
 
-# [lib]
-# path = "src/blockchain.rs"
+[lib]
+path = "src/block.rs"
